@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
@@ -15,5 +16,13 @@ func main() {
 	myArr[3] = "ma"
 	myArr[4] = "pa"
 	fmt.Println(myArr)
+
+	fmt.Println("Array Literals Example")
+
+	var arrLiteral [5]int = [5]int{1, 2, 3}
+	fmt.Println("Array Literal", arrLiteral)
+
+	arr := [3]time.Time{time.Unix(1447920000, 0), time.Unix(1447920000, 0), time.Unix(1447920000, 0)}
+	fmt.Println(arr)
 
 }
