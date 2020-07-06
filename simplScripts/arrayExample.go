@@ -25,4 +25,11 @@ func main() {
 	arr := [3]time.Time{time.Unix(1447920000, 0), time.Unix(1447920000, 0), time.Unix(1447920000, 0)}
 	fmt.Println(arr)
 
+	fmt.Println("%#v", arr)
+
+	for i := 0; i <= 3; i++ {
+		fmt.Println(myArr[i])
+	}
+	fmt.Println(len(myArr))
+
 }
