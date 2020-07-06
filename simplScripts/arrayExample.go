@@ -32,4 +32,8 @@ func main() {
 	}
 	fmt.Println(len(myArr))
 
+	for index, note := range myArr {
+		fmt.Println(index, note)
+	}
+
 }
